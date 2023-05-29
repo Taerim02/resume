@@ -1,0 +1,134 @@
+#logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+h1 {
+    color: black;
+    font-family: Arial, sans-serif;
+    
+}
+h2 {
+    color: rgb(4, 4, 32);
+    font-family: Arial, sans-serif;
+    padding-bottom: 20px;
+}
+
+h4 {
+    color: rgb(2, 39, 2);
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    margin-left: 20px;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 50px;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    margin: 5px;
+    padding: 7px;
+    background-color: #f50c0c28;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    
+    color: #333;
+    padding: 10px 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+    box-sizing: border-box;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #0c0101;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial, sans-serif;    
+    margin-bottom: 30px;
+
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #fde4e4;
+}
+tr:hover {
+    background-color: #fde4e4;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 80%;
+}
+
+
+::placeholder {
+    font-family: "Arial", sans-serif;
+}
+
